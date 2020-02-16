@@ -2,6 +2,11 @@
 
 Different notes from the course
 
+## Mozilla Developer CSS reference
+- Most important CSS resource online: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+- Most common CSS Properties: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
+- MDN CSS Specifity: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
 ## Cascading Style Sheets & Specifity
 
 In what order are css rules compiled and what priority do they get.
