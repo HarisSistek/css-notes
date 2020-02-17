@@ -1,0 +1,45 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ErlangCodeStyleSettings>
+      <option name="ALIGN_MULTILINE_BLOCK" value="true" />
+      <option name="ALIGN_FUNCTION_CLAUSES" value="true" />
+      <option name="ALIGN_GUARDS" value="true" />
+      <option name="SPACE_AROUND_OR_IN_LISTS" value="false" />
+      <option name="ALIGN_FUN_CLAUSES" value="true" />
+      <option name="UNIFORM_BINARY_EXPRESSIONS" value="true" />
+    </ErlangCodeStyleSettings>
+    <XML>
+      <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+    </XML>
+    <codeStyleSettings language="Erlang">
+      <option name="SPACE_AROUND_ASSIGNMENT_OPERATORS" value="false" />
+      <option name="SPACE_AROUND_LOGICAL_OPERATORS" value="false" />
+      <option name="SPACE_AROUND_EQUALITY_OPERATORS" value="false" />
+      <option name="SPACE_AROUND_ADDITIVE_OPERATORS" value="false" />
+      <option name="SPACE_AROUND_MULTIPLICATIVE_OPERATORS" value="false" />
+      <option name="SPACE_AFTER_COMMA" value="false" />
+      <option name="CALL_PARAMETERS_WRAP" value="1" />
+      <option name="METHOD_PARAMETERS_WRAP" value="1" />
+      <option name="BINARY_OPERATION_WRAP" value="1" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="4" />
+        <option name="CONTINUATION_INDENT_SIZE" value="8" />
+        <option name="TAB_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="HTML">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="TypeScript">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>

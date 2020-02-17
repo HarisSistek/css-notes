@@ -133,3 +133,49 @@ Will apply to:
 
 Rules:
 - Second element is just a descendant of the first element.
+
+## Box Model
+
+### Margin Collapsing
+
+Margins between two boxes are collapsed, and the
+bigger margin wins. This can sometimes be hard to
+maintain and best practice is to exclusively use
+`margin-top` or `margin-bottom`.
+
+### Separate vs Shorthand Properties
+
+Normal properties that combine the properties into one shorthand style property.
+Example:
+
+    border-width: 2px;
+    border-style: dashed | solid;
+    border-color: orange;
+    
+    ... can be written also as ...
+    
+    border: 2px dashed orange;
+    
+Order does not matter unless properties use the same value.
+
+
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+    ... can be written as ...
+    
+    margin: 5px 10px 5px 10px // top right bottom left 
+    margin: 5px 10px // (top & bottom) (left & right)
+    margin: 10px // 10px on all sides
+            
+Again a design decision if they should be used. Be more or less explicit in 
+you css file. 
+    
+You can use the browser dev tools css layout property drop down on shorthands to see
+all values set in the shorthand, and the correct order of them. 
+    
+    
+    
+    
